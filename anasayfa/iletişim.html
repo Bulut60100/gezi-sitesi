@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>İletişim</title>
+<link rel="stylesheet" href="iletişim.css" />
+</head>
+
+<body>
+<div class="sablon">
+<div class="logo"><img src="../img/logo.jpg" height="150" width="200"></div>
+<div class="resim"><img src="../img/türkiye.jpg" height="150" width="680"></div>
+<div class="menu">
+<ul>
+<li><a href="../index.html"><font color="#000000" size="+1">Anasayfa</a></li>
+<li><a href="gezi notlari.php"><font color="#000000" size="+1">Gezi Notları</a></li>
+<li><a href="şehirler.html"><font color="#000000" size="+1">Şehirler</a></li>
+<li><a href="galeri.php"><font color="#000000" size="+1">Galeri</a></li>
+<li><a href="iletişim.html"><font color="#000000" size="+1">İletişim</a></li>
+</ul>
+</div>
+<div class="sosyal">
+<a href="https://m.facebook.com/Gezi-Land-353997415242340/" target="_blank"><img src="../img/facebook.jpg" width="45" height="47" /></a>
+<a href="https://www.instagram.com/gezi_land/" target="_blank"><img src="../img/instagram.jpg" width="45" height="47" /></a>
+<a href="giriss.php"><img src="../img/user.png" width="45" height="47" /></a>
+</div>
+<div>  
+    <div  class="iletişim"> 
+      <br>
+      <h3 class="iform">İletişim Formu</h3>
+      <hr>
+      <form action="iletisim.php" method="POST">
+        <div>
+          <div class="üst">
+            <p class="text1">İsim</p>
+            <input class="form2" type="text" maxlength="25" name="ad" required >
+          </div>
+          <div class="üst">
+           <p class="text1">Soyisim</p>
+           <input class="form2" maxlength="25" type="text" name="soyad" required> 
+         </div>
+       </div> 
+       <br><br><br>
+       <p class="text">E-Mail</p>
+       <input class="form" type="email" name="email" required><br>
+       <p class="text">Telefon</p>
+       <input class="form" type="number" name="tel" ><br>
+       <br>
+       <p class="text">Bizi Nerden Buldunuz</p>
+       <div>
+        <div>
+          <input class="liste" type="radio" name="ulas" value="Google"  >
+          <p class="liste1">Google</p>
+        </div>
+        <div>
+          <input class="liste" type="radio"   name="ulas" value="Facebook"  >
+          <p class="liste1">Facebook</p>
+        </div>
+        <div>
+          <input class="liste" type="radio"   name="ulas" value="instagram"  >
+          <p class="liste1">İnstagram</p>
+        </div>
+        <div>
+          <input class="liste" type="radio" name="ulas" value="Diğer" >
+          <p class="liste1">Diğer</p>
+        </div>
+      </div>
+      <br><br>
+      <p class="text">Açıklama</p>
+      <textarea class="form1" name="aciklama" maxlength="500" type="text" required> </textarea>
+      <br>  
+      <button class="buton"  name="gonder" type="submit">Gönder</button>
+      <button class="buton1" name="temizle" type="reset">Temizle</button>
+    </form>
+  </div>
+</div>
+</div>
+
+<div class="altkisim">
+<div class="altüst">
+<div class="altsol">
+<div class="ustyazi">Menü</div>
+<div class="ustyazi">Hakkımızda</div>
+<div class="ustyazi">İletişim</div>
+<div class="ustyazi">Üye</div>
+</div>
+<div class="altsag"></div>
+</div>
+<div class="altalt">
+<div><a href="../index.html" class="altyazi">•Anasayfa</a></div>
+<div><a href="gezi notlari.php" class="altyazi">•Gezi Notları</a></div>
+<div><a href="şehirler.html" class="altyazi">•Şehirler</a></div>
+<div><a href="galeri.php" class="altyazi">•Galeri</a></div>
+<div><a href="iletişim.html" class="altyazi">•İletişim</a></div>
+</div>
+<div class="altalt2">•Telefon: 0534 977 05 63<br>•Adres: Akdeniz Mahallesi, Alparslan Türkeş Blv. No:201, 33770 Erdemli/Mersin</div>
+<div class="altalt3"><a href="https://m.facebook.com/Gezi-Land-353997415242340/" target="_blank" class="altalt3">•Facebook</a><br><a href="https://www.instagram.com/gezi_land/" target="_blank" class="altalt3">•İnstagram</a><br><a href="iletişim.html" class="altalt3">•E-Posta</a></div>
+
+<div><a class="color" style="text-decoration:none" href="kayıt.html">•Üye Kayıt</a><br><a class="color" style="text-decoration:none" href="giriss.php">•Üye Girişi</a></div>
+
+</body>
+</html>

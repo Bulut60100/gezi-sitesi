@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(../img/arka5.jpg) }
+.sablon{ 
+        width:900px; 
+		height:auto; 
+		margin:30px auto
+}
+.logo{ 
+       width:200px; 
+	   height:150px; 
+	   float:left; 
+}
+.logo img{ border-radius:10px }
+.resim{ 
+        width:680px; 
+		height:150px; 
+		float:left; 
+		margin:0 0 0 10px
+}
+.resim img{ border-radius:10px }
+.menu{ 
+       width:725px; 
+	   height:47px; 
+	   float:left; 
+	   margin:10px 0 0 0; 
+	   background:#FFF;
+}
+.sosyal{ 
+         width:150px; 
+		 height:50px; 
+		 float:left; 
+		 margin:10px 0 0 10px;
+}
+.sosyal img{ border-radius:10px }
+.menu ul{ 
+         margin:0; 
+		 padding:0; 
+		 list-style:none;
+}
+.menu ul li{ float:left}
+.menu ul li a{ 
+               display:block; 
+			   width:145px; 
+			   height:32px; 
+			   text-decoration:none;
+			   text-align:center; 
+			   font:13px tahoma; 
+			   background:url(../img/sekmelimenu1.gif); 
+			   color:#FFF; 
+			   padding:15px 0 0 0;
+}
+.menu ul li a:hover{background:#09F}
+
+.altkisim{
+	width:%100;
+	height:200px;
+	background:#09151D;
+	float:left;
+	margin:100px 0 0 0;
+}
+.altüst{
+	width:%100;
+	height:50px;
+	background:#050E15;
+	line-height:50px;
+	font-size:17px;
+	color:#CCC;
+	float:left;
+}
+.altsol{
+	width:1400px;
+	float:left;
+}
+
+.ustyazi{
+	display:inline-block;
+	margin-right:180px;
+	margin-left:100px;
+	float:left;
+}
+.altyazi{
+	text-decoration:none;
+	color:#666;
+	margin-left:100px;
+	width:280px;
+}
+.altalt{
+	width:420px;
+	float:left;
+}
+.altalt2{
+	width:360px;
+	float:left;
+	color:#666;
+	text-decoration:none;
+}
+.altalt3{
+	width:320px;
+	float:left;
+	color:#666;
+	text-decoration:none;
+}
+.color{
+	color:#666
+	}
+.konu{
+	float:left;
+	border:1px solid #ddd;
+	width:600px;
+	height:auto;
+	position:relative;
+	margin:20px 0 0 120px;
+	font-size:20px;
+	background:#ddd;
+	}
+.konu h3{
+	margin:5px;
+	border:1px solid #ddd;
+	padding:5px;
+	background:skyblue;
+	}
+.konu h5{
+	margin:5px;
+	border:1px solid #ddd;
+	padding:5px;
+	background:#f6f6f6;
+	}
+.konu p{
+	margin:10px;
+	}
+.konu img{
+	width:200px;
+	height:150px;
+	float:left;
+	padding:5px;
+	}
+.devam{
+	float:left;
+	border:1px solid #ddd;
+	width:600px;
+	min-height:350px;
+	position:relative;
+	margin:20px 0 0 120px;
+	font-size:20px;
+	background:#ddd;
+	}
+.devam h3{
+	margin:5px;
+	border:1px solid #ddd;
+	padding:5px;
+	background:skyblue;
+	}
+.devam h5{
+	margin:5px;
+	border:1px solid #ddd;
+	padding:5px;
+	background:#f6f6f6;
+	}
+.devam p{
+	margin:10px;
+	}
+.devam img{
+	width:500px;
+	height:250px;
+	margin:10px;
+	display:block;
+	}
+.x{
+	border:1px solid #ddd;
+	width:100px;
+	float:right;
+	position:relative;
+	top:auto;
+	margin:10px;
+	background:lightgreen;
+	}
+.x a{
+	text-decoration:none;
+	margin:15px;
+	color:white;
+	}
+.yorum{
+	border:1px solid #ddd;
+	position:relative;
+	left:110px;
+	margin:10px;
+	top:10px;
+	float:left;
+	background:lightgreen;
+	}	
+.yorumhata{
+	padding:10px;
+	height:35px;
+	float:left;
+	margin-left:120px;
+	font-size:24px;
+	color:blue;
+	background:#999;
+	}
+.yorumlar{
+	border:1px solid #ddd;
+	width:600px;
+	left:120px;
+	margin-top:10px;
+	min-height:100px;;
+	position:relative;
+	float:left;
+	background:white;
+	}
+.yorumlar h4{
+	margin:3px;
+	border:1px solid #ddd;
+	padding:3px;
+	background:#d6d6d6;
+	font-size:20px;
+	}
+.yorum p{
+	margin:5px;
+	padding:5px;
+	font-size:20px;
+	}
+.sayma{
+	float:right;
+	}
+.aktif{
+	border:1px solid #ddd;
+	margin:5px;
+	padding:10px;
+	background:lightgreen;
+	}
+.sayfa{
+	border:1px solid #ddd;
+	margin:5px;
+	padding:10px;
+	background:#ddd;
+	}
+.sayfa a{
+	text-decoration:none;
+	color:black;
+	}
+.sayfalama{
+	float:left;
+	width:600px;
+	height:auto;
+	margin-left:115px;
+	margin-top:30px;
+	}
+.dikkat{
+	margin:20px;
+	margin-left:230px;
+	color:red;
+	float:left;
+	}
+.konuekle{
+	border:1px solid #ddd;
+	margin:20px;
+	margin-left:400px;
+	width:600px;
+	top:20px;
+	height:auto;;
+	background:#CF9;
+	float:left;
+	}
+.konuekle h2{
+	border:1px solid #ddd;
+	margin:3px;
+	padding:7px;
+	background:#eee;
+	}
+.konuekle input{
+	width:300px;
+	height:25px;
+	font-size:20px;
+	}
+.konuekle ul li{
+	margin:5px;
+	list-style:none;
+	font-size:20px;
+	font-weight:bold;
+	}
+.konuekle textarea{
+	font-size:20px;
+	}
+.konuekle button{
+	border:1px solid #ddd;
+	width:110px;
+	height:35px;
+	background:skyblue;
+	cursor:pointer;
+	border-radius:5px;
+	}
+.yorumbas{
+	margin:20px 0 20px 120px;
+	float:left;
+	background:#666;
+	width:600px;
+	text-align:center
+	}
+

@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:url(../img/arka5.jpg) }
+.sablon{ 
+        width:900px; 
+		height:auto; 
+		margin:30px auto
+}
+.logo{ 
+       width:200px; 
+	   height:150px; 
+	   float:left; 
+}
+.logo img{ border-radius:10px }
+.resim{ 
+        width:680px; 
+		height:150px; 
+		float:left; 
+		margin:0 0 0 10px
+}
+.resim img{ border-radius:10px }
+.menu{ 
+       width:725px; 
+	   height:47px; 
+	   float:left; 
+	   margin:10px 0 0 0; 
+	   background:#FFF;
+}
+.sosyal{ 
+         width:150px; 
+		 height:50px; 
+		 float:left; 
+		 margin:10px 0 0 10px;
+}
+.sosyal img{ border-radius:10px }
+.menu ul{ 
+         margin:0; 
+		 padding:0; 
+		 list-style:none;
+}
+.menu ul li{ float:left}
+.menu ul li a{ 
+               display:block; 
+			   width:145px; 
+			   height:32px; 
+			   text-decoration:none;
+			   text-align:center; 
+			   font:13px tahoma; 
+			   background:url(../img/sekmelimenu1.gif); 
+			   color:#FFF; 
+			   padding:15px 0 0 0;
+}
+.menu ul li a:hover{background:#09F}
+
+
+.h{
+	color:#F00;
+}
+.img{
+	width:420px;
+	height:200px;
+}
+.p{
+	font-size:35px;
+	color:#66F;
+	text-align:center
+}
+
+.sehir{
+	   width:890px;
+	   height:auto; 
+	   float:left; 
+	   margin:10px 0 10px 0px; 
+}
+
+.galeri{
+	margin:10px 10px 0 0;
+	width:280px;
+	
+}
+
